@@ -17,7 +17,7 @@ public class GreeterTest {
     @Test
     @DisplayName("Given time is 21, return Good Evening")
     void giveTheTimeIs21ReturnGoodEvening(){
-        Assertions.assertEquals("Good Evening", Greeter.getGreeting(21));
+        Assertions.assertEquals("Good Evening all", Greeter.getGreeting(21));
     }
 
 }
